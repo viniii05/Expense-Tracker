@@ -30,7 +30,7 @@ function showUserExpenses(obj) {
   const delButton = document.createElement("button");
   delButton.type = "button";
   delButton.value = "Delete";
-  delButton.classList = "btn btn-danger  mr-2";
+  delButton.classList = "btn btn-danger ";
   delButton.textContent = "Delete";
 
   delButton.onclick = () => {
